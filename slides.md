@@ -7,30 +7,7 @@ theme: custom
 paginate: true
 ---
 
-<!-- Custom theme -->
-<style>
-section {
-  background: #f5f5f5;
-  color: #333;
-  font-family: 'Segoe UI', sans-serif;
-}
-h1, h2 {
-  color: #2a9d8f;
-}
-h3, h4 {
-  color: #264653;
-}
-code {
-  background: #e9ecef;
-  padding: 2px 4px;
-  border-radius: 3px;
-}
-blockquote {
-  font-style: italic;
-  color: #6c757d;
-}
-</style>
-
+<!-- _footer: *Page footer: Product Docs* -->
 # Product Documentation
 
 Welcome to the technical documentation for our product.
@@ -39,7 +16,7 @@ Email: 23f1001052@ds.study.iitm.ac.in
 
 ---
 
-<!-- Slide with background image -->
+<!-- _backgroundColor: #264653 -->
 ![bg cover](images/product-bg.jpg)
 
 # Product Overview
@@ -51,7 +28,7 @@ Email: 23f1001052@ds.study.iitm.ac.in
 
 ---
 
-<!-- Slide with math equation -->
+<!-- _class: lead -->
 # Algorithm Complexity
 
 The sorting algorithm has average complexity:
@@ -68,7 +45,7 @@ $$
 
 ---
 
-<!-- Slide with code -->
+<!-- _color: #f4a261 -->
 # Example API Usage
 
 ```python
